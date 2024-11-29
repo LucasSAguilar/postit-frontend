@@ -4,7 +4,9 @@
     background-color: #312f2f;
     padding: 15px;
     border: 2px solid #B168FF;
-    box-shadow: -15px 15px 3px 0 #7b00ffb0;
+    box-shadow: -5px 5px 3px 0 #7b00ffb0;
+    transition: 0.4s;
+
     &__header {
         width: 100%;
         border-bottom: 1px solid #FFFFFF;
@@ -37,4 +39,9 @@
         color: #FFFFFF;
     }
   }
+
+  .article:hover {
+    box-shadow: -10px 10px 3px 0 #7b00ff;
+}
+
   

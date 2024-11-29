@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
-import { PostBoxComponent } from "../../components/post-box/post-box.component";
-import {MatGridListModule} from "@angular/material/grid-list"
+import { MatGridListModule } from '@angular/material/grid-list';
+import { HomeMessagesComponent } from "./home-messages/home-messages.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [PostBoxComponent, MatGridListModule],
+  imports: [MatGridListModule, HomeMessagesComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
 })
-export class HomeComponent {
-
-
-}
+export class HomeComponent {}
