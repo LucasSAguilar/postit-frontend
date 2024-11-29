@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 100vh;
   width: 100vw;
-  padding: 20px 0;
+  padding: 10px 0;
   background-color: #1a1a1a;
   background-image: url("/assets/background/effect_complete.png");
 }
@@ -16,8 +16,8 @@
   min-width: 330px;
   max-width: 500px;
   border-radius: 10px;
-  height: 650px;
-  padding: 25px;
+  height: 600px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,7 +80,7 @@
   color: #ffffff;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 10px;
   transition: 0.2s;
 }
 
@@ -91,14 +91,14 @@
 .social-media-text {
   color: #ffffff;
   text-align: center;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .social-media-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .social-icon {

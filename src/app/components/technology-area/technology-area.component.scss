@@ -1,0 +1,43 @@
+.area {
+  border: 1px solid #bc00eb;
+  background-color: #1a1919;
+  border-radius: 8px;
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+
+  &__header-card {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  &__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  &__title {
+    color: #bc00eb;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 0;
+
+    &-item {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #ffffff;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #bb86f7;
+      }
+    }
+  }
+}

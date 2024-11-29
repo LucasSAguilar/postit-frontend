@@ -1,0 +1,14 @@
+<article class="area">
+  <header class="area__header-card">
+    <img
+      class="area__image"
+      [src]="imageSrc"
+      alt="Imagem da área"
+      *ngIf="imageSrc"
+    />
+    <h2 class="area__title">{{ title }}</h2>
+  </header>
+  <ul class="area__list" *ngIf="items.length > 0">
+    <li class="area__list-item" *ngFor="let item of items">{{ item }}</li>
+  </ul>
+</article>
