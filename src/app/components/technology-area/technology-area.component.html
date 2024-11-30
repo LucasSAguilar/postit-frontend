@@ -1,4 +1,4 @@
-<article class="area">
+<article class="area" [ngStyle]="{ border: '1px solid ' + color }">
   <header class="area__header-card">
     <img
       class="area__image"
@@ -6,7 +6,7 @@
       alt="Imagem da área"
       *ngIf="imageSrc"
     />
-    <h2 class="area__title">{{ title }}</h2>
+    <h2 class="area__title" [ngStyle]="{ color: color }">{{ title }}</h2>
   </header>
   <ul class="area__list" *ngIf="items.length > 0">
     <li class="area__list-item" *ngFor="let item of items">{{ item }}</li>
